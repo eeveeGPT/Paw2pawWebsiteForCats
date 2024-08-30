@@ -1,1 +1,65 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow Match</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Delius&display=swap" rel="stylesheet">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Delius', cursive;
+            height: 100%;
+            background-color: #FFF9E6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            height: 100%;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .logo {
+            font-family: 'Fredoka One', cursive;
+            font-size: 28px;
+            color: #FF6B6B;
+        }
+        .search-bar {
+            width: 50%;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #FFD93D;
+            border-radius: 20px;
+            font-family: 'Delius', cursive;
+        }
+        .menu {
+            font-size: 18px;
+            color: #4D4D4D;
+        }
+        .welcome {
+            font-family: 'Fredoka One', cursive;
+            font-size: 56px;
+            text-align: center;
+            margin-top: 100px;
+            color: #4ECDC4;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">meow match</div>
+            <input type="text" class="search-bar" placeholder="Search your cat">
+            <div class="menu">more ...</div>
+        </header>
+        <div class="welcome">Welcome!</div>
+    </div>
+</body>
+</html>
